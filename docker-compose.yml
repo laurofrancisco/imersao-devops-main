@@ -1,0 +1,10 @@
+
+services:
+  app:
+    build: .  # Constrói a imagem Docker a partir do Dockerfile no diretório atual.
+    container_name: api
+    ports:
+      - "8000:8000"  # Mapeia a porta 8000 do host para a porta 8000 no container.
+    volumes:
+      - .:/app  # Monta o diretório do projeto em /app no container, permitindo que mudanças no código sejam refletidas em tempo real.
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload  # Inicia a aplicação usando Uvicorn, ouvindo em todas as interfaces na porta 8000 com recarregamento automático habilitado.
