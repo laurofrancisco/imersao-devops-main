@@ -1,12 +1,18 @@
 # Imersão DevOps - Alura Google Cloud
 
+![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Feito com Python](https://img.shields.io/badge/feito%20com-Python-blue)
+![Docker](https://img.shields.io/badge/containerizado%20com-Docker-2496ED?logo=docker&logoColor=white)
+![Deploy no Google Cloud Run](https://img.shields.io/badge/deploy-Google%20Cloud%20Run-blue?logo=googlecloud)
+
 Este projeto foi desenvolvido durante a **Imersão DevOps** promovida pela **Alura** em parceria com o **Google Cloud**. O objetivo foi aplicar práticas modernas de DevOps com foco em containers, integração contínua e deploy em cloud utilizando o **Google Cloud Run**. 
 
-Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e matrículas em uma instituição de ensino.
+API desenvolvida com FastAPI para gerenciar alunos, cursos e matrículas em uma instituição de ensino.
 
 ## 📦 Sobre o Projeto
 
-A aplicação consiste em uma API RESTful simples, containerizada com **Docker**, automatada com **CI/CD**, e implantada na nuvem via **Google Cloud Run**.
+A aplicação consiste em uma API RESTful simples, containerizada com **Docker**, automatizada com **CI/CD**, e implantada na nuvem via **Google Cloud Run**.
 
 Durante a imersão, foram abordados:
 
@@ -121,3 +127,7 @@ A aplicação está em produção e a documentação interativa (gerada via Swag
 - Para reiniciar o banco, basta apagar o arquivo `escola.db` (isso apagará todos os dados).
 
 ---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para mais informações.
