@@ -1,6 +1,19 @@
 # Imersão DevOps - Alura Google Cloud
 
+Este projeto foi desenvolvido durante a **Imersão DevOps** promovida pela **Alura** em parceria com o **Google Cloud**. O objetivo foi aplicar práticas modernas de DevOps com foco em containers, integração contínua e deploy em cloud utilizando o **Google Cloud Run**. 
+
 Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e matrículas em uma instituição de ensino.
+
+## 📦 Sobre o Projeto
+
+A aplicação consiste em uma API RESTful simples, containerizada com **Docker**, automatada com **CI/CD**, e implantada na nuvem via **Google Cloud Run**.
+
+Durante a imersão, foram abordados:
+
+- Docker e conceitos de containerização
+- Criação de pipelines de CI/CD
+- Deploy automático usando Google Cloud Run
+- Monitoramento e boas práticas de DevOps
 
 ## Pré-requisitos
 
@@ -56,7 +69,41 @@ gcloud run deploy --port=8000
 
 ```
 
+## 🔗 Documentação da API (Swagger)
+
+A aplicação está em produção e a documentação interativa (gerada via Swagger UI) pode ser acessada abaixo:
+
+👉 [**Acessar Documentação da API**](https://api-199108342094.southamerica-east1.run.app/docs)
+
+> Use essa interface para explorar os endpoints da API, testar requisições e entender a estrutura dos dados.
+
 ---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Python (FastAPI)
+- Docker
+- GitHub Actions (CI/CD)
+- Google Cloud Run
+- Swagger UI (OpenAPI)
+- Git
+
+---
+
+## 🚀 Como Executar Localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/laurofrancisco/imersao-devops-main.git
+   cd imersao-devops-main
+
+2. Execute com Docker:
+   docker build -t imersao-api .
+   docker run -p 8000:8000 imersao-api
+
+3. Acesse localmente em:
+   http://localhost:8000/docs
 
 ## Estrutura do Projeto
 
