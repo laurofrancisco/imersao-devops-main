@@ -99,6 +99,7 @@ A aplicação está em produção e a documentação interativa (gerada via Swag
    cd imersao-devops-main
 
 2. Execute com Docker:
+   ```bash
    docker build -t imersao-api .
    docker run -p 8000:8000 imersao-api
 
