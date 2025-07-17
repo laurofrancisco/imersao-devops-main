@@ -130,4 +130,4 @@ A aplicação está em produção e a documentação interativa (gerada via Swag
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para mais informações.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./license) para mais informações.
